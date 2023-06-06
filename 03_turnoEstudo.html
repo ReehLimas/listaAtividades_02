@@ -12,10 +12,21 @@
     */
 
     //ENTRADA
-
+    const turno = prompt(`Informe o turno que estuda - D-Manhã | T-Tarde | N-Noite`).toUpperCase();
     
     //PROCESSAMENTO
-
+    if (turno == "D") {
+        alert(`Bom dia!`);
+    }
+    else if (turno == "T") {
+        alert(`Boa tarde!`);
+    }
+    else if (turno == "N") {
+        alert(`Boa noite!`);
+    }
+    else {
+        alert(`Valor inválido!`);
+    }
     
     //SAÍDA
     
