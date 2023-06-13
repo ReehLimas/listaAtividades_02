@@ -7,9 +7,47 @@
     - positivo ou negativo;
     - inteiro ou decimal.
     */
-
+   const n1 = Number("Me informe um numero:")
+   const operacao = prompt("Qual operação você deseja realizar?: +, -, /, *");
+   const n2 = Number(prompt("informe outro número"));
+   let mensagem = `O resultado é `
     //ENTRADA
+        if(operacao == "+"){
+          const resultado = (n1 + n2) || (n2 + n1)
+             mensagem = mensagem + resultado
+        if (resultado%2==0){
+             mensagem = mensagem + par
+     }
+} 
+        else {
+            mensagem = mensagem + `impar `
+        }
+        if(resul>=0){
+            mensagem = mensagem + `positivo `
+        }
+        else{
+            mensagem = mensagem + `negativo `
+        }
+        if(resul%1==0){
+            mensagem = mensagem + `inteito.`
+        }
+        else{
+            mensagem = mensagem + `decimal`
+        }
+       
+        else if(operacao == "-"){
+        if((n1 - n2) || (n2 - n1)){
 
+   }
+}
+else if(operacao == "/"){
+    if((n1 / n2) || (n2 / n1))
+
+}
+else if(operacao == "*"){
+    if(n1 * n2 || n2 * n1)
+    alert()
+}
 
     //PROCESSAMENTO
 
