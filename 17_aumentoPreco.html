@@ -7,11 +7,22 @@
         //- acima de 1500: aumento de 5 %
     
     // Entrada
+    let valorProduto = prompt("Informe o valor do produto").replace(",",".");
 
     
     // Processamento
-
-    
+    if(valorProduto <= 280 * 20 / 100){
+        alert(`Seu produto tem aumento de 20%`)
+    }
+    else if(valorProduto <= 700 * 15 / 100){
+        alert("seu produto tem aumento de 15%")
+    }
+    else if(valorProduto <= 1500 * 10 / 100){
+        alert(`seu produto tem o aumento de 10% `)
+    }
+    else if(valorProduto > 1500 * 5 / 100){
+        alert(`seu produto tem o aumento de 5%`)
+    }
     // Saída
 
 </script>
